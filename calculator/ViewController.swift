@@ -138,7 +138,14 @@ class ViewController: UIViewController {
                 case "*":
                     resultDbl = resultDbl * res
                 case "/":
-                    resultDbl = resultDbl / res
+                    if res != 0 {
+                        resultDbl = resultDbl / res
+                    }
+                    else{
+                        let alert = UIAlertController(title: "Warning", message: "Can't divide by 0", preferredStyle: UIAlertControllerStyle.Alert)
+                        alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
+                        self.presentViewController(alert, animated: true, completion: nil)
+                    }
                 default:
                     break
                 }
