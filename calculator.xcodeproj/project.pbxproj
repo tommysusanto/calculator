@@ -99,6 +99,7 @@
 			children = (
 				3EC0F8671CE1EAA00036E336 /* AppDelegate.swift */,
 				3EC0F8691CE1EAA00036E336 /* ViewController.swift */,
+				3EC0F8951CE1F19B0036E336 /* Sources */,
 				3EC0F86B1CE1EAA00036E336 /* Main.storyboard */,
 				3EC0F86E1CE1EAA00036E336 /* Assets.xcassets */,
 				3EC0F8701CE1EAA00036E336 /* LaunchScreen.storyboard */,
@@ -123,6 +124,13 @@
 				3EC0F8891CE1EAA00036E336 /* Info.plist */,
 			);
 			path = calculatorUITests;
+			sourceTree = "<group>";
+		};
+		3EC0F8951CE1F19B0036E336 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
