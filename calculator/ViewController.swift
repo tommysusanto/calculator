@@ -120,6 +120,10 @@ class ViewController: UIViewController {
             reloadDisplay()
         }
     }
+    @IBAction func CEClear(sender: AnyObject) {
+        result=""
+        reloadDisplay()
+    }
     
     func calculate(operation: String){
         
